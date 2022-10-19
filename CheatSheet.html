@@ -14,6 +14,29 @@
     font-size: 30px;}
     h2{text-align: center;
     font-style: italic;}
+    ol.a{
+        list-style-type: upper-roman;
+        list-style-position: outside;
+    }
+    ul.demo{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    th, td {
+        border: 1px solid ;
+        border-radius: 10px;
+        background-color:red;
+        text-align: center;
+    }
+    table, td, th{
+        border: 1px dotted;
+    }
+    
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
     </style>
 </head>
 <body>
@@ -117,7 +140,8 @@
     <h3>5. Pseudo classes for the < a> element</h3>
     <p>Gestalten Sie ein Element, wenn ein Benutzer mit der Maus darüber fährt <br>
     Gestalten Sie besuchte und nicht besuchte Links unterschiedlich <br>
-    Gestalten Sie ein Element, wenn es den Fokus erhält <br><p>
+    Gestalten Sie ein Element, wenn es den Fokus erhält <br>
+    <strong>Beispiele: </strong>a:link {color: red;}, /* visited link */ a:visited {color: green;}, /* mouse over link */ a:hover {color: hotpink;}, /* selected link */a:active {color: blue;}</p>
     <h3>6. Declaration for background image</h3>
     <p>body{background-image: url"(path)";}</p>
     <h3>7. Declaration for text alignment (left, right, center, justify)</h3> 
@@ -144,15 +168,81 @@
     <h1>Reading Assignment 3</h1>
     <section>
         <h2>Html for Lists </h2>
+        <h3>1. Start tags for:</h3>
+        <ul>
+            <li><strong>an ordered list:</strong> Eine geordnete Liste beginnt mit dem &lt;ol&gt; Tag. Jedes Listenelement beginnt mit dem &lt;li&gt; Tag. <br>
+            Die Listenelemente werden standardmäßig mit Nummern gekennzeichnet.
+            <li><strong>an unroderd list:</strong> Eine ungeordnete Liste beginnt mit dem &lt;ul&gt; Tag. Jedes Listenelement beginnt mit dem &lt;li&gt;Tag. <br>
+    	    Die Listenelemente werden standardmäßig mit Aufzählungszeichen (kleine schwarze Kreise) markiert.
+            <li><strong>a description list:</strong> Eine Beschreibungsliste ist eine Liste von Begriffen mit einer Beschreibung jedes Begriffs.
+            Das &lt;dl&gt; Tag definiert die Beschreibungsliste, das &lt;dt&gt; Tag definiert den Begriff (Namen) und das &lt;dd&gt; Tag beschreibt jeden Begriff.
+            <li><strong>a list item:</strong> &lt;li&gt; definiert ein item der Liste, also eine aufzählung.</li>
+            <li><strong>a description term:</strong> &lt;dt&gt; definiert einen Term der Liste.</li>
+            <li><strong>a description data:</strong> &lt;dd&gt; definiert eine Datei der Liste</li>
+        </ul>
     </section>
     <section>
         <h2>Css for Lits</h2>
+        <ol class="a">
+            <li><strong>Make bullet a square</strong></li>
+            <p>ul.a{list-style-type: sqaure;}</p>
+            <li><strong>Make bullet an image named "my-bullet.png"</strong></li>
+            <p>ul.a{list-style-type: url("my-bullet.png");}</p>
+            <li><strong>Make bullet uppercase roman number</strong></li>
+            <p>ul.a{list-style-type: upper-roman</p>
+            <li><strong>Set bullet position to be inside the list item's text flow</strong></li>
+            <p>Postion inside schiebt den Text nach innen, da der Aufzählungspunkt zum Text gehört: ul.a{list-style-type: inside;}</p>
+            <li><strong>Set bullet position to be outside the list item's text flow</strong></li>
+            <p>Position outside schiebt den Text nach außen, da der Aufzählungspunkt nicht zum Text gehört: ul.a{list-style-type: outside;}</p>
+        </ol>
     </section>
     <section>
-       <h2>Html for Tables</h2>
+        <dt>
+            <h2>Html for Tables</h2>
+            <h3>1. Start Tags for:</h3>
+            <dl><strong>a table:</strong></dl>
+            <dd>&lt;table&gt;&lt;/table&gt;</dd>
+            <dl><strong>a table row:</strong></dl>
+            <dd>&lt;tr&gt;&lt;/tr&gt;</dd>
+            <dl><strong>a table header:</strong></dl>
+            <dd>&lt;thead&gt;&lt;/thead&gt;</dd>
+            <dl><strong>a table header cell:</strong></dl>
+            <dd>&lt;th&gt;&lt;/th&gt;</dd>
+            <dl><strong>a table body:</strong></dl>
+            <dd>&lt;tbody&gt;&lt;/tbody&gt;</dd>
+            <dl><strong>a table cell:</strong></dl>
+            <dd>&lt;td&gt;&lt;/td&gt;</dd>
+            <dl><strong>a table footer:</strong></dl>
+            <dd>&lt;tfooter&gt;&lt;/tfooter&gt;</dd>
+            <dl><strong>a table footer cell:</strong></dl>
+            <dd></dd>
+        </dt>
     </section>
     <section>
-        <h2>Css for Tables</h2>
+        <dt>
+            <h2>Css for Tables</h2>
+            <dl><strong>1. Black dotted border of 1 px width.</strong></dl>
+            <dd>table, th, td {border: 1px} </dd>
+            <dl><strong>2. Solid border of 1 px width having a red color and rounded croners.</strong></dl>
+            <dd>th, td {border: 1px solid; <br>
+                border-radius: 10px; <br>
+                background-color:red;
+            }</dd>
+            <dl><strong>3. Merge the borders of table cells so that they appear as one line.</strong></dl>
+            <dd>table{width: 100%; <br>
+                border-collapse: collapse;}</dd>
+                <br>
+            <table>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                </tr>
+                <tr>
+                    <td>Tobias</td>
+                    <td>Kletsch</td>
+                </tr>
+            </table>
+        </dt>
     </section>
 
 </section>
