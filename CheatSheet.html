@@ -14,14 +14,17 @@
     font-size: 30px;}
     h2{text-align: center;
     font-style: italic;}
-    ol.a{
-        list-style-type: upper-roman;
+    ul.a{
+        list-style-type: square;
         list-style-position: outside;
     }
     ul.demo{
         list-style-type: none;
         margin: 0;
         padding: 0;
+    }
+    ul.b{
+        list-style-type: circle;
     }
     th, td {
         border: 1px solid ;
@@ -43,158 +46,193 @@
 <section>
     <h1>Reading Assignment 1</h1>
     <section>
-    <h2>Word Wide Web General</h2>
-    <h3>1.What are the most essential technologies that made the World Wide Web such a success?</h3>
-    <p>URLs, http und https</p>
-    <h3>2.How are resources (html pages, images, etc) addressed in the web?</h3>
-    <p>Durch URLs.</p>
-    <h3>3.What are the general components of a url?</h3>
-    <img src="./PartsOfURL.png" alt="PartsOfURL">
+        <dt>
+            <h2>Word Wide Web General</h2>
+            <dl><h3>1.What are the most essential technologies that made the World Wide Web such a success?</h3></dl>
+            <dd>URLs, http und https</dd>
+            <dl><h3>2.How are resources (html pages, images, etc) addressed in the web?</h3></dl>
+            <dd>Durch URLs.</dd>
+            <dl><h3>3.What are the general components of a url?</h3></dl>
+            <dd><img src="./PartsOfURL.png" alt="partsOfURL"></dd>
+        </dt>
     </section>
 
     <section>
-    <h2>Web Server</h2>
-    <h3>1.What is a web server?</h3>
-    <p>Ein Web Sever verbindet sich mit dem Internet und ist für die Web Anfragen eines Web Clients zuständig.</p>
-    <h3>2.What does a web server?</h3>
-    <p>Ein Web Sever behandelt die Anfragen und versorgt den Web Client mit den angefordeten Inforamtionen z.B. Webpage.</p>
-    <h3>3.How can content be stored on a web server?</h3>
-    <p>Statische Seiten werden im Filesystem gespeichert und dynamische Seiten werden für Anfragen zugeschnitten und generiert.</p>
-    <h3>4.How is content in webpages described?</h3>
-    <p>Der Inhalt einer Seite kann durch Text, Audios und Videos dagestellt werden.</p>
+        <dt>
+            <h2>Web Server</h2>
+            <dl><h3>1.What is a web server?</h3></dl>
+            <dd>Ein Web Sever verbindet sich mit dem Internet und ist für die Web Anfragen eines Web Clients zuständig.</dd>
+            <dl><h3>2.What does a web server?</h3></dl>
+            <dd>Ein Web Sever behandelt die Anfragen und versorgt den Web Client mit den angefordeten Inforamtionen z.B. Webpage.</dd>
+            <dl><h3>3.How can content be stored on a web server?</h3></dl>
+            <dd>Statische Seiten werden im Filesystem gespeichert und dynamische Seiten werden für Anfragen zugeschnitten und generiert.</dd>
+            <dl><h3>4.How is content in webpages described?</h3></dl>
+            <dd>Der Inhalt einer Seite kann durch Text, Audios und Videos dagestellt werden.</dd>
+        </dt>
     </section>
 
     <section>
-    <h2>Web Client</h2>
-    <h3>1.What is a web client?</h3>
-    <p>Ein Web Client ist eine Applikation oder Gerät das mit Web Sever kommuniziert.</p>
-    <h3>2.What does a web client?</h3>
-    <p>Ein Web Client sendet Requests an den Web Sever und interpretiert die zurück erhaltenen Antworten.</p>
-    <h3>3.Web Client and Web Browser is the same</h3>
-    <p>Ein Web Browser ist eine Art von Web Client (jedes Gerät das einen Web Zugang hat).</p>
+        <dt>
+            <h2>Web Client</h2>
+            <dl><h3>1.What is a web client?</h3></dl>
+            <dd>Ein Web Client ist eine Applikation oder Gerät das mit Web Sever kommuniziert.</dd>
+            <dl><h3>2.What does a web client?</h3></dl>
+            <dd>Ein Web Client sendet Requests an den Web Sever und interpretiert die zurück erhaltenen Antworten.</dd>
+            <dl><h3>3.Web Client and Web Browser is the same</h3></dl>
+            <dd>Ein Web Browser ist eine Art von Web Client (jedes Gerät das einen Web Zugang hat).</dd>
+        </dt>
     </section>
 
     <section>
-    <h2>Hello World</h2>
-    <h3>1.What is the html head element?</h3>
-    <p>Der head enthält alle wichtigen meta Inforamtionen (z.b Zeichen kodierung auf UTF-8).</p>
-    <h3>2.What does !DOCTYPE` html mean?</h3>
-    <p>!DOCTYPE` html sagt dem Browser, dass es eine HTML Seite ist.</p>
-    <h3>3.What are the two top most elements within the html element?</h3>
-    <p>Die two top most elements sind head und body.</p>
-    <h3>4.How to <em>emphasize</em> a text and how is it displayed in the browser?</h3>
-    <p>Mit dem <em>em</em> tag.</p>
-    <h3>5.How to <strong>mark up</strong> important ext and how is it displayed in the browser?</h3>
-    <p>Mit dem <strong>strong</strong> tag.</p>
+        <dt>
+            <h2>Hello World</h2>
+            <dl><h3>1.What is the html head element?</h3></dl>
+            <dd>Der head enthält alle wichtigen meta Inforamtionen (z.b Zeichen kodierung auf UTF-8).</dd>
+            <dl><h3>2.What does !DOCTYPE html mean?</h3></dl>
+            <dd>!DOCTYPE html sagt dem Browser, dass es eine HTML Seite ist.</dd>
+            <dl><h3>3.What are the two top most elements within the html element?</h3></dl>
+            <dd>Die two top most elements sind head und body.</dd>
+            <dl><h3>4.How to <em>emphasize</em> a text and how is it displayed in the browser?</h3></dl>
+            <dd>Mit dem <em>em</em> tag.</dd>
+            <dl><h3>5.How to <strong>mark up</strong> important ext and how is it displayed in the browser?</h3></dl>
+            <dd>Mit dem <strong>strong</strong> tag.</dd>
+        </dt>
     </section>
 
 </section>
 <section>
     <h1>Reading Assignment 2</h1>
     <section>
-    <h2>Html</h2>
-    <h3>1. Name the components of html elements properly</h3>
-    <p>1. !DOCTYPE 2. html 3. head 4. body: h2-h6(Überschrieft), p(paragraph), a(link), img(bild)</p>
-    <h3>2. Identify void elements and how they are denoted</h3>
-    <p>Elmente haben für gwöhnlich einen tag und einen endtag aber void elemente haben keinen endtag.</p>
-    <h3>3. Write down the correct DOCTYPE declaration for html 5</h3>
-    <p>< !DOCTYPE html></p>
-    <h3>4. Write down syntactically correct statements for the following elements</h3>
-    <ul>
-        <li><strong>Article(article):</strong> Gibt unabhängig, in sich geschlossene Inhalte wieder </li>
-        <li><strong>Body(body):</strong> Sozusagen der Hauptteil der Webiste.</li>
-        <li><strong>line break(br):</strong> Macht einen Zeilenumbruch.</li>
-        <li><strong>Headings(h2-h6):</strong> Gibt 6 davon h2-h6 und sind die Überschrieften der Webiste werden auch vom Broweser verwendet und bestimmte Inhalte zu  finden.</li>
-        <li><strong>Section with meta inforamtionen (head)</strong>Dort stehen die meta daten wie z.B. Zeichen encodierung oder auch der Titel.</li>
-        <li><strong>Top level element (html):</strong>Sagt aus das diese Website eine HTML Seite ist.</li>
-        <li><strong>Image < img scr="img src."Team.jpg" alt="">:</strong>Wird verwendet um Bilder anzuzeigen src. ist dabei das Attribut mit der URL.</li>
-        <li><strong>Paragraph (p):</strong>Ist der normale Text einer Webiste (so wie man ihn gerade liest).</li>
-        <li><strong>Section (section):</strong>Definiert einen bestimmten Abschnitt des Dokuments.</li>
-        <li><strong>Label appearing in the titel bar (titel):</strong>Der Titel des Dokuments, wird auch im der Suchleiste des Browsers angegeben.</li>
-        <li><strong>Link to other pages < a href=""></a></strong>Ein Link zu einer anderen Website.</li>
-        <li><strong>Comment:</strong>So kann man einen Kommentar schreiben dieser wird zwar im Code angezeigt aber auf der Webiste selbst nicht.</li>
-        <!--Ich kann einen Kommentar schreiben YEAH-->
-        <li><strong>Head with titel and meta elements:</strong>Der Head wo die wichtigsten Informationen zu der Webiste stehen.</li>
-    </ul>
+        <dt>
+            <h2>Html</h2>
+            <dl><h3>1. Name the components of html elements properly</h3></dl>
+            <dd>1. !DOCTYPE 2. html 3. head 4. body: h2-h6(Überschrieft), p(paragraph), a(link), img(bild)</dd>
+            <h3>2. Identify void elements and how they are denoted</h3></dl>
+            <dd>Elmente haben für gwöhnlich einen tag und einen endtag aber void elemente haben keinen endtag.</dd>
+            <h3>3. Write down the correct DOCTYPE declaration for html 5</h3></dl>
+            <dd>&lt;!DOCTYPE html&gt;</dd>
+            <h3>4. Write down syntactically correct statements for the following elements</h3>
+            <ul class="b">
+                <dl><li><strong>Article(article):</strong></dl>
+                <dd>Gibt unabhängig, in sich geschlossene Inhalte wieder </li></dd>
+                <dl><li><strong>Body(body):</strong></dl>
+                <dd>Sozusagen der Hauptteil der Webiste.</li></dd> 
+                <dl><li><strong>line break(br):</strong></dl>
+                <dd>Macht einen Zeilenumbruch.</li></dd> 
+                <dl><li><strong>Headings(h2-h6):</strong></dl>
+                <dd>Gibt 6 davon h2-h6 und sind die Überschrieften der Webiste werden auch vom Broweser verwendet und bestimmte Inhalte zu  finden.</li></dd> 
+                <dl><li><strong>Section with meta inforamtionen (head)</strong></dl>
+                <dd>Dort stehen die meta daten wie z.B. Zeichen encodierung oder auch der Titel.</li></dd> 
+                <dl><li><strong>Top level element (html):</strong></dl>
+                <dd>Sagt aus das diese Website eine HTML Seite ist.</li></dd> 
+                <dl><li><strong>Image &lt;img scr="img src."Team.jpg" alt="&gt;:</strong></dl>
+                <dd>Wird verwendet um Bilder anzuzeigen src. ist dabei das Attribut mit der URL.</li></dd> 
+                <dl><li><strong>paragraph (p):</strong></dl>
+                <dd>Ist der normale Text einer Webiste (so wie man ihn gerade liest).</li></dd> 
+                <dl><li><strong>Section (section):</strong></dl> 
+                <dd>Definiert einen bestimmten Abschnitt des Dokuments.</li></dd> 
+                <dl><li><strong>Label appearing in the titel bar (titel):</strong></dl>
+                <dd>Der Titel des Dokuments, wird auch im der Suchleiste des Browsers angegeben.</li></dd> 
+                <dl><li><strong>Link to other pages &lt;a href=""&gt;</a></strong></dl>
+                <dd>Ein Link zu einer anderen Website.</li></dd> 
+                <dl><li><strong>Comment:</strong></dl>
+                <dd>So kann man einen Kommentar schreiben dieser wird zwar im Code angezeigt aber auf der Webiste selbst nicht.</li>
+                <!--Ich kann einen Kommentar schreiben YEAH-->
+                <dl><li><strong>Head with titel and meta elements:</strong></dl>
+                <dd>Der Head wo die wichtigsten Informationen zu der Webiste stehen.</li></dd> 
+            </ul>
+        </dt>
     </section>
 
     <section>
-    <h2>CSS</h2>
-    <h3>1. Name the components of a css rule properly</h3>
-    <p>Eine Css-Regel besteht aus einem Sektor und einem Deklarationsblock</p>
-    <img src="Css-Syntax.jpg" alt="Css Syntax">
-    <h3>2. Use combinators properly: direct child, descendant, adjacent sibling, sibling</h3>
-    <p><strong>Nachkommen-Selektor (space): </strong> Der Nachkommenselektor stimmt mit allen Elementen überein, die Nachkommen eines angegebenen Elements sind.
-    Das folgende Beispiel wählt alle &lt;p&gt; Elemente innerhalb von &lt;div&gt;-Elementen aus: div p {<br>
-    <strong>Untergeordnete Auswahl (>): </strong>Der untergeordnete Selektor wählt alle Elemente aus, die untergeordnete Elemente eines angegebenen Elements sind.
-    Das folgende Beispiel wählt alle &lt;p&gt; Elemente aus, die Kinder eines &lt;div&gt; Elements sind: div > p{<br>
-    <strong>Auswahl benachbarter Geschwister (+): </strong>Der nebengeordnete Selektor wird verwendet, um ein Element auszuwählen, das direkt nach einem anderen bestimmten Element liegt.
-    Geschwisterelemente müssen das gleiche Elternelement haben, und „benachbart“ bedeutet „unmittelbar folgend“.
-    Das folgende Beispiel wählt das erste &lt;p&gt; Element aus, das unmittelbar nach &lt;div&gt; Elementen platziert wird: div + p {<br>
-    <strong> Allgemeine Geschwisterauswahl (~): </strong>Der allgemeine Geschwisterselektor wählt alle Elemente aus, die nächste Geschwister eines angegebenen Elements sind. <br>
-    Das folgende Beispiel wählt alle &lt;p&gt; Elemente aus, die nächste Geschwister von &lt;div&gt; Elementen sind div ~ p { <br></p>
-    <h3>3. Specify colors by color names and in hexadecimal notation</h3>
-    <p>Rot in der normalen Schreibweise red in der hexadecimal Schreibweise ff0000</p>
-    <h3>4. Declarations for color, background color</h3>
-    <p>Farbe mit Element{color:} und den Hintergund mit Element{background-color}</p>
-    <h3>5. Pseudo classes for the < a> element</h3>
-    <p>Gestalten Sie ein Element, wenn ein Benutzer mit der Maus darüber fährt <br>
-    Gestalten Sie besuchte und nicht besuchte Links unterschiedlich <br>
-    Gestalten Sie ein Element, wenn es den Fokus erhält <br>
-    <strong>Beispiele: </strong>a:link {color: red;}, /* visited link */ a:visited {color: green;}, /* mouse over link */ a:hover {color: hotpink;}, /* selected link */a:active {color: blue;}</p>
-    <h3>6. Declaration for background image</h3>
-    <p>body{background-image: url"(path)";}</p>
-    <h3>7. Declaration for text alignment (left, right, center, justify)</h3> 
-    <p>body{text-align: center, left,...;}</p>
-    <h3>8. Declaration for text decoration (overline, underline, line-through)</h3>
-    <p>Elemen {text-decoration-line: overline, underline,...;}</p>
-    <h3>9. Declaration for text transformation (uppercase, lowercase, capitalize)</h3>
-    <p>Element {text-transforam:uppercase, lowercase;}</p>
-    <h3>10. Identify the difference between serif and sans-serif fonts</h3>
-    <p> <strong>Serifenschriften:</strong> haben einen kleinen Strich an den Rändern jedes Buchstabens. Sie schaffen ein Gefühl von Formalität und Eleganz.
-    <strong>Sans-Serif- Schriftarten:</strong> haben klare Linien (keine kleinen Striche angebracht). Sie schaffen einen modernen und minimalistischen Look.</p>
-    <img src="Unbenannt.JPG" alt="Unterschied Sans-serif und serif">
-    <h3>11. Declarations for font families</h3>
-    <p>Element{font-family: Schrieftart und die font-family}</p>
-    <h3>12. Declarations for font style normal and italic</h3>
-    <p>Element{font-style: normal;}</p>
-    <h3>13. Declarations for font sizes</h3>
-    <p>Element{font-size = 2.5em.</p>
-    <h3>14. Declarations for font weights</h3>
-    <p>Element{font-weight:normal}</p>
+        <dt>
+            <h2>CSS</h2>
+            <dl><h3>1. Name the components of a css rule properly</h3></dl>
+            <dd>Eine Css-Regel besteht aus einem Sektor und einem Deklarationsblock</dd>
+            <dd><img src="./Css-Syntax.jpg" alt="Css Syntax"></dd>
+            <dl><h3>2. Use combinators properly: direct child, descendant, adjacent sibling, sibling</h3></dl>
+            <ul class="a">
+                <dd><li><strong>Nachkommen-Selektor (space): </strong> Der Nachkommenselektor stimmt mit allen Elementen überein, die Nachkommen eines angegebenen Elements sind.
+                Das folgende Beispiel wählt alle &lt;p&gt; Elemente innerhalb von &lt;div&gt;-Elementen aus: div p {</li><br>
+                <li><strong>Untergeordnete Auswahl (>): </strong>Der untergeordnete Selektor wählt alle Elemente aus, die untergeordnete Elemente eines angegebenen Elements sind.
+                Das folgende Beispiel wählt alle &lt;p&gt; Elemente aus, die Kinder eines &lt;div&gt; Elements sind: div > p{</li><br>
+                <li><strong>Auswahl benachbarter Geschwister (+): </strong>Der nebengeordnete Selektor wird verwendet, um ein Element auszuwählen, das direkt nach einem anderen bestimmten Element liegt.
+                Geschwisterelemente müssen das gleiche Elternelement haben, und „benachbart“ bedeutet „unmittelbar folgend“.
+                Das folgende Beispiel wählt das erste &lt;p&gt; Element aus, das unmittelbar nach &lt;div&gt; Elementen platziert wird: div + p {</li><br>
+                <li><strong> Allgemeine Geschwisterauswahl (~): </strong>Der allgemeine Geschwisterselektor wählt alle Elemente aus, die nächste Geschwister eines angegebenen Elements sind. <br>
+                Das folgende Beispiel wählt alle &lt;p&gt; Elemente aus, die nächste Geschwister von &lt;div&gt; Elementen sind div ~ p { </li><br></dd>
+            </ul>
+            <dl><h3>3. Specify colors by color names and in hexadecimal notation</h3></dl>
+            <dd>Rot in der normalen Schreibweise red in der hexadecimal Schreibweise ff0000</dd>
+            <dl><h3>4. Declarations for color, background color</h3></dl>
+            <dd>Farbe mit Element{color:} und den Hintergund mit Element{background-color}</dd>
+            <dl><h3>5. pseudo classes for the < a> element</h3></dl>
+            <dd>Gestalten Sie ein Element, wenn ein Benutzer mit der Maus darüber fährt <br>
+            Gestalten Sie besuchte und nicht besuchte Links unterschiedlich <br>
+            Gestalten Sie ein Element, wenn es den Fokus erhält <br>
+            <strong>Beispiele: </strong>a:link {color: red;}, /* visited link */ a:visited {color: green;}, /* mouse over link */ a:hover {color: hotpink;}, /* selected link */a:active {color: blue;}</dd>
+            <dl><h3>6. Declaration for background image</h3></dl>
+            <dd>body{background-image: url"(path)";}</dd>
+            <dl><h3>7. Declaration for text alignment (left, right, center, justify)</h3></dl>
+            <dd>body{text-align: center, left,...;}</dd>
+            <dl><h3>8. Declaration for text decoration (overline, underline, line-through)</h3></dl>
+            <dd>Elemen {text-decoration-line: overline, underline,...;}</dd>
+            <dl><h3>9. Declaration for text transformation (uppercase, lowercase, capitalize)</h3></dl>
+            <dd>Element {text-transforam:uppercase, lowercase;}</dd>
+            <dl><h3>10. Identify the difference between serif and sans-serif fonts</h3></dl>
+            <dd><strong>Serifenschriften:</strong> haben einen kleinen Strich an den Rändern jedes Buchstabens. Sie schaffen ein Gefühl von Formalität und Eleganz. <br>
+            <strong>Sans-Serif- Schriftarten:</strong> haben klare Linien (keine kleinen Striche angebracht). Sie schaffen einen modernen und minimalistischen Look.</dd>
+            <dd><img src="./Unbenannt.JPG" alt="Unterschied Sans-serif und sarif"></dd>
+            <dl><h3>11. Declarations for font families</h3>
+            <dd>Element{font-family: Schrieftart und die font-family}</dd>
+            <dl><h3>12. Declarations for font style normal and italic</h3></dl>
+            <dd>Element{font-style: normal;}</dd>
+            <dl><h3>13. Declarations for font sizes</h3></dl>
+            <dd>Element{font-size = 2.5em.</dd>
+            <dl><h3>14. Declarations for font weights</h3></dl>
+            <dd>Element{font-weight:normal}</dd>
+        </dt>
     </section>
 </section>
 <section>
     <h1>Reading Assignment 3</h1>
     <section>
+    <dt>
         <h2>Html for Lists </h2>
         <h3>1. Start tags for:</h3>
-        <ul>
-            <li><strong>an ordered list:</strong> Eine geordnete Liste beginnt mit dem &lt;ol&gt; Tag. Jedes Listenelement beginnt mit dem &lt;li&gt; Tag. <br>
-            Die Listenelemente werden standardmäßig mit Nummern gekennzeichnet.
-            <li><strong>an unroderd list:</strong> Eine ungeordnete Liste beginnt mit dem &lt;ul&gt; Tag. Jedes Listenelement beginnt mit dem &lt;li&gt;Tag. <br>
-    	    Die Listenelemente werden standardmäßig mit Aufzählungszeichen (kleine schwarze Kreise) markiert.
-            <li><strong>a description list:</strong> Eine Beschreibungsliste ist eine Liste von Begriffen mit einer Beschreibung jedes Begriffs.
-            Das &lt;dl&gt; Tag definiert die Beschreibungsliste, das &lt;dt&gt; Tag definiert den Begriff (Namen) und das &lt;dd&gt; Tag beschreibt jeden Begriff.
-            <li><strong>a list item:</strong> &lt;li&gt; definiert ein item der Liste, also eine aufzählung.</li>
-            <li><strong>a description term:</strong> &lt;dt&gt; definiert einen Term der Liste.</li>
-            <li><strong>a description data:</strong> &lt;dd&gt; definiert eine Datei der Liste</li>
+        <ul class="a">
+           <dl><li><strong>an ordered list:</strong></dl>  
+           <dd>Eine geordnete Liste beginnt mit dem &lt;ol&gt; Tag. Jedes Listenelement beginnt mit dem &lt;li&gt; Tag. <br>
+            Die Listenelemente werden standardmäßig mit Nummern gekennzeichnet.</dd> 
+            <dl><li><strong>an unroderd list:</strong></dl>
+            <dd>Eine ungeordnete Liste beginnt mit dem &lt;ul&gt; Tag. Jedes Listenelement beginnt mit dem &lt;li&gt;Tag. <br>
+    	    Die Listenelemente werden standardmäßig mit Aufzählungszeichen (kleine schwarze Kreise) markiert.</dd> 
+            <dl><li><strong>a description list:</strong></dl>
+            <dd>Eine Beschreibungsliste ist eine Liste von Begriffen mit einer Beschreibung jedes Begriffs.
+            Das &lt;dl&gt; Tag definiert die Beschreibungsliste, das &lt;dt&gt; Tag definiert den Begriff (Namen) und das &lt;dd&gt; Tag beschreibt jeden Begriff.</dd>
+            <dl><li><strong>a list item:</strong></dl>
+            <dd>&lt;li&gt; definiert ein item der Liste, also eine aufzählung.</li></dd>
+            <dl><li><strong>a description term:</strong></dl> 
+            <dd>&lt;dt&gt;definiert einen Term der Liste.</li></dd>
+            <dl><li><strong>a description data:</strong></dl>
+            <dd>&lt;dd&gt; definiert eine Datei der Liste</li></dd>
         </ul>
+    </dt>
     </section>
     <section>
+        <dt>
         <h2>Css for Lits</h2>
-        <ol class="a">
-            <li><strong>Make bullet a square</strong></li>
-            <p>ul.a{list-style-type: sqaure;}</p>
-            <li><strong>Make bullet an image named "my-bullet.png"</strong></li>
-            <p>ul.a{list-style-type: url("my-bullet.png");}</p>
-            <li><strong>Make bullet uppercase roman number</strong></li>
-            <p>ul.a{list-style-type: upper-roman</p>
-            <li><strong>Set bullet position to be inside the list item's text flow</strong></li>
-            <p>Postion inside schiebt den Text nach innen, da der Aufzählungspunkt zum Text gehört: ul.a{list-style-type: inside;}</p>
-            <li><strong>Set bullet position to be outside the list item's text flow</strong></li>
-            <p>Position outside schiebt den Text nach außen, da der Aufzählungspunkt nicht zum Text gehört: ul.a{list-style-type: outside;}</p>
-        </ol>
+            <dl><strong>Make bullet a square</strong></dl>
+            <dd>ul.a{list-style-type: sqaure;}</dd>
+            <dl><strong>Make bullet an image named "my-bullet.png"</strong></dl>
+            <dd>ul.a{list-style-type: url("my-bullet.png");}</dd>
+            <dl><strong>Make bullet uppercase roman number</strong></dl>
+            <dd>ul.a{list-style-type: upper-roman</dd>
+            <dl><strong>Set bullet position to be inside the list item's text flow</strong></dl>
+            <dd>postion inside schiebt den Text nach innen, da der Aufzählungspunkt zum Text gehört: ul.a{list-style-type: inside;}</dd>
+            <dl><strong>Set bullet position to be outside the list item's text flow</strong></dl>
+            <dd>position outside schiebt den Text nach außen, da der Aufzählungspunkt nicht zum Text gehört: ul.a{list-style-type: outside;}</dd>
+        </dt>
     </section>
     <section>
         <dt>
@@ -213,9 +251,9 @@
             <dl><strong>a table cell:</strong></dl>
             <dd>&lt;td&gt;&lt;/td&gt;</dd>
             <dl><strong>a table footer:</strong></dl>
-            <dd>&lt;tfooter&gt;&lt;/tfooter&gt;</dd>
+            <dd>&lt;footer&gt;&lt;/footer&gt;</dd>
             <dl><strong>a table footer cell:</strong></dl>
-            <dd></dd>
+            <dd>&lt;tfooter&gt;&lt;/tfooter&gt;</dd>
         </dt>
     </section>
     <section>
